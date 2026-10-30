@@ -1,0 +1,6 @@
+faster-whisper>=1.2.1
+sounddevice>=0.5
+numpy>=2.0
+pywin32>=306
+# For the GPU (recommended): install PyTorch with CUDA first; it ships the CUDA libraries faster-whisper needs.
+#   pip install torch --index-url https://download.pytorch.org/whl/cu128

@@ -1,0 +1,16 @@
+{
+  "hotkey": "right_ctrl",
+  "language": "en",
+  "model": "large-v3",
+  "device": "cuda",
+  "compute_type": "int8_float16",
+  "vocabulary": "Claude Code, GitHub, Python, JavaScript, npm, git, API, JSON",
+  "replacements": {
+    "Cloud Code": "Claude Code",
+    "Clawed Code": "Claude Code"
+  },
+  "mic": null,
+  "beeps": true,
+  "restore_clipboard": true,
+  "min_seconds": 0.35
+}
