@@ -3,6 +3,17 @@
 Hold **Right Ctrl**, speak, let go, and your words are typed wherever the cursor is:
 a Claude Code terminal, a browser, Notepad, anything. Local dictation for Windows.
 
+<!-- videos:start -->
+## See it in action
+
+<table><tr>
+<td width="64%" valign="top"><a href="docs/videos/tutorial.mp4"><img src="docs/videos/tutorial.jpg" alt="Full tutorial"></a><br><b>▶ <a href="docs/videos/tutorial.mp4">Full tutorial</a></b> (1:41, narrated, with captions)</td>
+<td width="36%" valign="top" align="center"><a href="docs/videos/ad.mp4"><img src="docs/videos/ad.gif" alt="25-second reel" width="240"></a><br><b>▶ <a href="docs/videos/ad.mp4">25-second reel</a></b></td>
+</tr></table>
+
+Click any picture to play the video with sound.
+<!-- videos:end -->
+
 - Speech-to-text is **Whisper large-v3** running on your GPU through
   [faster-whisper](https://github.com/SYSTRAN/faster-whisper). Audio never leaves your PC and it works offline.
 - About 1.6 GB of VRAM while it runs (`int8_float16`). A sentence typically takes about half a second.
